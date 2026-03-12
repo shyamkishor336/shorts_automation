@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install -r requirements.txt)",
+      "Bash(python -c \":*)",
+      "Bash(python -c \"from backend.providers.provider_manager import ProviderManager; pm = ProviderManager\\(\\); print\\(''ProviderManager OK''\\); print\\(pm.get_budget_status\\(\\)\\)\")",
+      "Bash(modal deploy:*)"
+    ]
+  }
+}

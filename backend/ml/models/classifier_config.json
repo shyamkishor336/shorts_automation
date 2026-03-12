@@ -1,0 +1,6 @@
+{
+  "script":  {"use_classifier": true,  "threshold": 0.65, "always_review": false},
+  "audio":   {"use_classifier": true,  "threshold": 0.65, "always_review": false},
+  "visual":  {"use_classifier": true,  "threshold": 0.65, "always_review": false},
+  "video":   {"use_classifier": false, "threshold": null,  "always_review": true}
+}

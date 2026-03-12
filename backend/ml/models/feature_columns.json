@@ -1,0 +1,43 @@
+{
+  "script": [
+    "readability_score",
+    "lexical_diversity",
+    "prompt_coverage",
+    "sentence_redundancy",
+    "entity_consistency",
+    "topic_coherence",
+    "factual_conflict_flag",
+    "prompt_ambiguity",
+    "prior_stage_corrections",
+    "cumulative_risk_score",
+    "api_retry_count"
+  ],
+  "audio": [
+    "phoneme_error_rate",
+    "silence_ratio",
+    "speaking_rate_variance",
+    "energy_variance",
+    "tts_word_count_match",
+    "prior_stage_corrections",
+    "cumulative_risk_score",
+    "api_retry_count"
+  ],
+  "visual": [
+    "clip_similarity",
+    "aesthetic_score",
+    "blur_score",
+    "object_match_score",
+    "colour_tone_match",
+    "prior_stage_corrections",
+    "cumulative_risk_score",
+    "api_retry_count"
+  ],
+  "video": [
+    "av_sync_error_ms",
+    "transition_smoothness",
+    "duration_deviation_s",
+    "prior_stage_corrections",
+    "cumulative_risk_score",
+    "api_retry_count"
+  ]
+}

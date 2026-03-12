@@ -1,0 +1,481 @@
+[2026-03-11 21:51:47] === Mode A Batch started — 120 runs (24 prompts × 5 reps) ===
+[2026-03-11 21:51:47] Starting run 1/120 | Prompt 1 | Rep 1
+[2026-03-11 21:51:49]   run_id=0213c137-57f6-4dc9-b6ef-30610ca308df
+[2026-03-11 21:56:33] DONE run 1/120 | prompt_id=1 | rep=1 | run_id=0213c137-57f6-4dc9-b6ef-30610ca308df | status=completed
+[2026-03-11 21:56:33]   Waiting 5s before next run…
+[2026-03-11 21:56:38] Starting run 2/120 | Prompt 1 | Rep 2
+[2026-03-11 21:56:40]   run_id=3aeac2f8-7b00-4fea-be14-4ed7c2d182fa
+[2026-03-11 22:00:07] DONE run 2/120 | prompt_id=1 | rep=2 | run_id=3aeac2f8-7b00-4fea-be14-4ed7c2d182fa | status=completed
+[2026-03-11 22:00:07]   Waiting 5s before next run…
+[2026-03-11 22:00:12] Starting run 3/120 | Prompt 1 | Rep 3
+[2026-03-11 22:00:14]   run_id=0da2db72-f8ae-4b32-a7ab-db28e42bf77a
+[2026-03-11 22:03:24] DONE run 3/120 | prompt_id=1 | rep=3 | run_id=0da2db72-f8ae-4b32-a7ab-db28e42bf77a | status=completed
+[2026-03-11 22:03:24]   Waiting 5s before next run…
+[2026-03-11 22:03:29] Starting run 4/120 | Prompt 1 | Rep 4
+[2026-03-11 22:03:31]   run_id=55320eb5-076a-4cc2-8408-a494bb82553b
+[2026-03-11 22:06:29] DONE run 4/120 | prompt_id=1 | rep=4 | run_id=55320eb5-076a-4cc2-8408-a494bb82553b | status=completed
+[2026-03-11 22:06:29]   Waiting 5s before next run…
+[2026-03-11 22:06:34] Starting run 5/120 | Prompt 1 | Rep 5
+[2026-03-11 22:06:36]   run_id=93b50190-e80a-4f06-b6c5-b69921057610
+[2026-03-11 22:09:35] DONE run 5/120 | prompt_id=1 | rep=5 | run_id=93b50190-e80a-4f06-b6c5-b69921057610 | status=completed
+[2026-03-11 22:09:35]   Waiting 5s before next run…
+[2026-03-11 22:09:40] Starting run 6/120 | Prompt 2 | Rep 1
+[2026-03-11 22:09:42]   run_id=b5663d58-93ae-4b45-b40d-20c4467bb615
+[2026-03-11 22:13:12] DONE run 6/120 | prompt_id=2 | rep=1 | run_id=b5663d58-93ae-4b45-b40d-20c4467bb615 | status=completed
+[2026-03-11 22:13:12]   Waiting 5s before next run…
+[2026-03-11 22:13:17] Starting run 7/120 | Prompt 2 | Rep 2
+[2026-03-11 22:13:19]   run_id=af418816-ef42-49f7-8e0a-85bd42d1c8f1
+[2026-03-11 22:16:16] DONE run 7/120 | prompt_id=2 | rep=2 | run_id=af418816-ef42-49f7-8e0a-85bd42d1c8f1 | status=completed
+[2026-03-11 22:16:16]   Waiting 5s before next run…
+[2026-03-11 22:16:21] Starting run 8/120 | Prompt 2 | Rep 3
+[2026-03-11 22:16:23]   run_id=4a6b3a94-2571-4686-ba30-77f03461e150
+[2026-03-11 22:19:20] DONE run 8/120 | prompt_id=2 | rep=3 | run_id=4a6b3a94-2571-4686-ba30-77f03461e150 | status=completed
+[2026-03-11 22:19:20]   Waiting 5s before next run…
+[2026-03-11 22:19:25] Starting run 9/120 | Prompt 2 | Rep 4
+[2026-03-11 22:19:27]   run_id=94235150-c6d9-4d4e-85d0-4c3c6803bff4
+[2026-03-11 22:22:19] DONE run 9/120 | prompt_id=2 | rep=4 | run_id=94235150-c6d9-4d4e-85d0-4c3c6803bff4 | status=completed
+[2026-03-11 22:22:19]   Waiting 5s before next run…
+[2026-03-11 22:22:24] Starting run 10/120 | Prompt 2 | Rep 5
+[2026-03-11 22:22:26]   run_id=fc93865c-0698-45a3-96a1-2eabda22a767
+[2026-03-11 22:25:21] DONE run 10/120 | prompt_id=2 | rep=5 | run_id=fc93865c-0698-45a3-96a1-2eabda22a767 | status=completed
+[2026-03-11 22:25:21]   Waiting 5s before next run…
+[2026-03-11 22:25:26] Starting run 11/120 | Prompt 3 | Rep 1
+[2026-03-11 22:25:28]   run_id=c733543b-9df0-4997-bb59-37764ca59a64
+[2026-03-11 22:28:23] DONE run 11/120 | prompt_id=3 | rep=1 | run_id=c733543b-9df0-4997-bb59-37764ca59a64 | status=completed
+[2026-03-11 22:28:23]   Waiting 5s before next run…
+[2026-03-11 22:28:28] Starting run 12/120 | Prompt 3 | Rep 2
+[2026-03-11 22:28:30]   run_id=6e16dd8c-5982-49e1-aae5-f657a4a97da4
+[2026-03-11 22:31:27] DONE run 12/120 | prompt_id=3 | rep=2 | run_id=6e16dd8c-5982-49e1-aae5-f657a4a97da4 | status=completed
+[2026-03-11 22:31:27]   Waiting 5s before next run…
+[2026-03-11 22:31:32] Starting run 13/120 | Prompt 3 | Rep 3
+[2026-03-11 22:31:34]   run_id=001dd07a-0aa4-400b-b502-fa2193fc27dd
+[2026-03-11 22:34:30] DONE run 13/120 | prompt_id=3 | rep=3 | run_id=001dd07a-0aa4-400b-b502-fa2193fc27dd | status=completed
+[2026-03-11 22:34:30]   Waiting 5s before next run…
+[2026-03-11 22:34:35] Starting run 14/120 | Prompt 3 | Rep 4
+[2026-03-11 22:34:37]   run_id=bc64a525-0469-44a6-8dc1-f4238beb7ce8
+[2026-03-11 22:37:32] DONE run 14/120 | prompt_id=3 | rep=4 | run_id=bc64a525-0469-44a6-8dc1-f4238beb7ce8 | status=completed
+[2026-03-11 22:37:32]   Waiting 5s before next run…
+[2026-03-11 22:37:37] Starting run 15/120 | Prompt 3 | Rep 5
+[2026-03-11 22:37:39]   run_id=7bc6fb08-1b38-485d-8d83-223afe9489a3
+[2026-03-11 22:40:35] DONE run 15/120 | prompt_id=3 | rep=5 | run_id=7bc6fb08-1b38-485d-8d83-223afe9489a3 | status=completed
+[2026-03-11 22:40:35]   Waiting 5s before next run…
+[2026-03-11 22:40:40] Starting run 16/120 | Prompt 4 | Rep 1
+[2026-03-11 22:40:42]   run_id=ad8962de-d57a-4c36-bbd0-e8cfcd9b9c5e
+[2026-03-11 22:43:55] DONE run 16/120 | prompt_id=4 | rep=1 | run_id=ad8962de-d57a-4c36-bbd0-e8cfcd9b9c5e | status=completed
+[2026-03-11 22:43:55]   Waiting 5s before next run…
+[2026-03-11 22:44:00] Starting run 17/120 | Prompt 4 | Rep 2
+[2026-03-11 22:44:02]   run_id=bef678d4-2f87-449d-a636-afdbcb162008
+[2026-03-11 22:47:15] DONE run 17/120 | prompt_id=4 | rep=2 | run_id=bef678d4-2f87-449d-a636-afdbcb162008 | status=completed
+[2026-03-11 22:47:15]   Waiting 5s before next run…
+[2026-03-11 22:47:20] Starting run 18/120 | Prompt 4 | Rep 3
+[2026-03-11 22:47:22]   run_id=16296886-ab6d-4b17-a215-3483005ce707
+[2026-03-11 22:50:33] DONE run 18/120 | prompt_id=4 | rep=3 | run_id=16296886-ab6d-4b17-a215-3483005ce707 | status=completed
+[2026-03-11 22:50:33]   Waiting 5s before next run…
+[2026-03-11 22:50:38] Starting run 19/120 | Prompt 4 | Rep 4
+[2026-03-11 22:50:40]   run_id=6ae40f48-2a6c-497b-ae1b-6ae373a588c9
+[2026-03-11 22:53:51] DONE run 19/120 | prompt_id=4 | rep=4 | run_id=6ae40f48-2a6c-497b-ae1b-6ae373a588c9 | status=completed
+[2026-03-11 22:53:51]   Waiting 5s before next run…
+[2026-03-11 22:53:56] Starting run 20/120 | Prompt 4 | Rep 5
+[2026-03-11 22:53:58]   run_id=7e6b1195-e039-493f-a808-4b622ce4c120
+[2026-03-11 22:57:08] DONE run 20/120 | prompt_id=4 | rep=5 | run_id=7e6b1195-e039-493f-a808-4b622ce4c120 | status=completed
+[2026-03-11 22:57:08]   Waiting 5s before next run…
+[2026-03-11 22:57:13] Starting run 21/120 | Prompt 5 | Rep 1
+[2026-03-11 22:57:15]   run_id=181cbc23-fd4f-4a48-a93d-946a2ce5ad8f
+[2026-03-11 23:00:28] DONE run 21/120 | prompt_id=5 | rep=1 | run_id=181cbc23-fd4f-4a48-a93d-946a2ce5ad8f | status=completed
+[2026-03-11 23:00:28]   Waiting 5s before next run…
+[2026-03-11 23:00:33] Starting run 22/120 | Prompt 5 | Rep 2
+[2026-03-11 23:00:35]   run_id=61524a9b-395f-4cc5-922d-58350f96699a
+[2026-03-11 23:03:51] DONE run 22/120 | prompt_id=5 | rep=2 | run_id=61524a9b-395f-4cc5-922d-58350f96699a | status=completed
+[2026-03-11 23:03:51]   Waiting 5s before next run…
+[2026-03-11 23:03:56] Starting run 23/120 | Prompt 5 | Rep 3
+[2026-03-11 23:03:58]   run_id=c7b891cc-1f6c-4552-a1da-c18807dfd872
+[2026-03-11 23:07:09] DONE run 23/120 | prompt_id=5 | rep=3 | run_id=c7b891cc-1f6c-4552-a1da-c18807dfd872 | status=completed
+[2026-03-11 23:07:09]   Waiting 5s before next run…
+[2026-03-11 23:07:14] Starting run 24/120 | Prompt 5 | Rep 4
+[2026-03-11 23:07:16]   run_id=b65872a0-d617-467f-9325-e0895a928729
+[2026-03-11 23:10:31] DONE run 24/120 | prompt_id=5 | rep=4 | run_id=b65872a0-d617-467f-9325-e0895a928729 | status=completed
+[2026-03-11 23:10:31]   Waiting 5s before next run…
+[2026-03-11 23:10:36] Starting run 25/120 | Prompt 5 | Rep 5
+[2026-03-11 23:10:38]   run_id=8b08505b-58a0-4c02-9cac-4ae424738ab3
+[2026-03-11 23:13:54] DONE run 25/120 | prompt_id=5 | rep=5 | run_id=8b08505b-58a0-4c02-9cac-4ae424738ab3 | status=completed
+[2026-03-11 23:13:55]   Waiting 5s before next run…
+[2026-03-11 23:14:00] Starting run 26/120 | Prompt 6 | Rep 1
+[2026-03-11 23:14:02]   run_id=cf6ab028-8637-467e-bf2f-3e4020825d90
+[2026-03-11 23:17:13] DONE run 26/120 | prompt_id=6 | rep=1 | run_id=cf6ab028-8637-467e-bf2f-3e4020825d90 | status=completed
+[2026-03-11 23:17:13]   Waiting 5s before next run…
+[2026-03-11 23:17:18] Starting run 27/120 | Prompt 6 | Rep 2
+[2026-03-11 23:17:20]   run_id=d3b1893d-9430-4337-93e1-5f7214abc37e
+[2026-03-11 23:20:29] DONE run 27/120 | prompt_id=6 | rep=2 | run_id=d3b1893d-9430-4337-93e1-5f7214abc37e | status=completed
+[2026-03-11 23:20:29]   Waiting 5s before next run…
+[2026-03-11 23:20:34] Starting run 28/120 | Prompt 6 | Rep 3
+[2026-03-11 23:20:36]   run_id=44e2c709-0bf2-4a70-bad2-3a9e83008884
+[2026-03-11 23:23:50] DONE run 28/120 | prompt_id=6 | rep=3 | run_id=44e2c709-0bf2-4a70-bad2-3a9e83008884 | status=completed
+[2026-03-11 23:23:50]   Waiting 5s before next run…
+[2026-03-11 23:23:55] Starting run 29/120 | Prompt 6 | Rep 4
+[2026-03-11 23:23:57]   run_id=f0bf39ae-6a8d-48cf-9d8c-efa2b9cadd7a
+[2026-03-11 23:27:07] DONE run 29/120 | prompt_id=6 | rep=4 | run_id=f0bf39ae-6a8d-48cf-9d8c-efa2b9cadd7a | status=completed
+[2026-03-11 23:27:07]   Waiting 5s before next run…
+[2026-03-11 23:27:12] Starting run 30/120 | Prompt 6 | Rep 5
+[2026-03-11 23:27:14]   run_id=880a3a70-d047-4c8a-af30-81c30b8e634d
+[2026-03-11 23:30:25] DONE run 30/120 | prompt_id=6 | rep=5 | run_id=880a3a70-d047-4c8a-af30-81c30b8e634d | status=completed
+[2026-03-11 23:30:25]   Waiting 5s before next run…
+[2026-03-11 23:30:30] Starting run 31/120 | Prompt 7 | Rep 1
+[2026-03-11 23:30:32]   run_id=df96613f-6450-4912-9525-4013d28e7af3
+[2026-03-11 23:33:45] DONE run 31/120 | prompt_id=7 | rep=1 | run_id=df96613f-6450-4912-9525-4013d28e7af3 | status=completed
+[2026-03-11 23:33:45]   Waiting 5s before next run…
+[2026-03-11 23:33:50] Starting run 32/120 | Prompt 7 | Rep 2
+[2026-03-11 23:33:52]   run_id=ed04d1f9-7159-4aec-b453-42f5e4de6cdc
+[2026-03-11 23:37:03] DONE run 32/120 | prompt_id=7 | rep=2 | run_id=ed04d1f9-7159-4aec-b453-42f5e4de6cdc | status=completed
+[2026-03-11 23:37:03]   Waiting 5s before next run…
+[2026-03-11 23:37:08] Starting run 33/120 | Prompt 7 | Rep 3
+[2026-03-11 23:37:10]   run_id=1406e28b-1fcc-494b-88b5-8463d2f8c1ff
+[2026-03-11 23:40:19] DONE run 33/120 | prompt_id=7 | rep=3 | run_id=1406e28b-1fcc-494b-88b5-8463d2f8c1ff | status=completed
+[2026-03-11 23:40:19]   Waiting 5s before next run…
+[2026-03-11 23:40:24] Starting run 34/120 | Prompt 7 | Rep 4
+[2026-03-11 23:40:27]   run_id=3b44e039-081f-4009-b44f-e1abaa0184b5
+[2026-03-11 23:43:39] DONE run 34/120 | prompt_id=7 | rep=4 | run_id=3b44e039-081f-4009-b44f-e1abaa0184b5 | status=completed
+[2026-03-11 23:43:39]   Waiting 5s before next run…
+[2026-03-11 23:43:44] Starting run 35/120 | Prompt 7 | Rep 5
+[2026-03-11 23:43:46]   run_id=10904b1a-08ea-4784-b6f8-8241d23c612a
+[2026-03-11 23:46:58] DONE run 35/120 | prompt_id=7 | rep=5 | run_id=10904b1a-08ea-4784-b6f8-8241d23c612a | status=completed
+[2026-03-11 23:46:58]   Waiting 5s before next run…
+[2026-03-11 23:47:03] Starting run 36/120 | Prompt 8 | Rep 1
+[2026-03-11 23:47:05]   run_id=f83ef1ae-89ad-44d8-aa6e-e2af41fd57c6
+[2026-03-11 23:50:21] DONE run 36/120 | prompt_id=8 | rep=1 | run_id=f83ef1ae-89ad-44d8-aa6e-e2af41fd57c6 | status=completed
+[2026-03-11 23:50:21]   Waiting 5s before next run…
+[2026-03-11 23:50:26] Starting run 37/120 | Prompt 8 | Rep 2
+[2026-03-11 23:50:28]   run_id=007e1c1e-28b6-4a6e-9245-da7c0b2eeac4
+[2026-03-11 23:53:42] DONE run 37/120 | prompt_id=8 | rep=2 | run_id=007e1c1e-28b6-4a6e-9245-da7c0b2eeac4 | status=completed
+[2026-03-11 23:53:42]   Waiting 5s before next run…
+[2026-03-11 23:53:47] Starting run 38/120 | Prompt 8 | Rep 3
+[2026-03-11 23:53:49]   run_id=ef909748-f3ff-4b37-b601-0a75cadda9df
+[2026-03-11 23:57:06] DONE run 38/120 | prompt_id=8 | rep=3 | run_id=ef909748-f3ff-4b37-b601-0a75cadda9df | status=completed
+[2026-03-11 23:57:06]   Waiting 5s before next run…
+[2026-03-11 23:57:11] Starting run 39/120 | Prompt 8 | Rep 4
+[2026-03-11 23:57:13]   run_id=ab21f7c6-3e04-46f3-85bd-f3c6ff818830
+[2026-03-12 00:00:29] DONE run 39/120 | prompt_id=8 | rep=4 | run_id=ab21f7c6-3e04-46f3-85bd-f3c6ff818830 | status=completed
+[2026-03-12 00:00:29]   Waiting 5s before next run…
+[2026-03-12 00:00:34] Starting run 40/120 | Prompt 8 | Rep 5
+[2026-03-12 00:00:36]   run_id=a9a82283-2845-412b-b16d-960f2684ff6b
+[2026-03-12 00:03:46] DONE run 40/120 | prompt_id=8 | rep=5 | run_id=a9a82283-2845-412b-b16d-960f2684ff6b | status=completed
+[2026-03-12 00:03:46]   Waiting 5s before next run…
+[2026-03-12 00:03:51] Starting run 41/120 | Prompt 9 | Rep 1
+[2026-03-12 00:03:53]   run_id=b3f48aef-e8ea-47b7-86ae-03705d736827
+[2026-03-12 00:07:10] DONE run 41/120 | prompt_id=9 | rep=1 | run_id=b3f48aef-e8ea-47b7-86ae-03705d736827 | status=completed
+[2026-03-12 00:07:10]   Waiting 5s before next run…
+[2026-03-12 00:07:15] Starting run 42/120 | Prompt 9 | Rep 2
+[2026-03-12 00:07:17]   run_id=92beeeda-3f2a-479e-b3e9-5d364918133d
+[2026-03-12 00:10:31] DONE run 42/120 | prompt_id=9 | rep=2 | run_id=92beeeda-3f2a-479e-b3e9-5d364918133d | status=completed
+[2026-03-12 00:10:31]   Waiting 5s before next run…
+[2026-03-12 00:10:36] Starting run 43/120 | Prompt 9 | Rep 3
+[2026-03-12 00:10:38]   run_id=2f91b122-b033-4314-9abe-843d419c0fd6
+[2026-03-12 00:13:51] DONE run 43/120 | prompt_id=9 | rep=3 | run_id=2f91b122-b033-4314-9abe-843d419c0fd6 | status=completed
+[2026-03-12 00:13:52]   Waiting 5s before next run…
+[2026-03-12 00:13:57] Starting run 44/120 | Prompt 9 | Rep 4
+[2026-03-12 00:13:59]   run_id=6f4bb161-84a7-46df-932f-08ff7f388a30
+[2026-03-12 00:17:14] DONE run 44/120 | prompt_id=9 | rep=4 | run_id=6f4bb161-84a7-46df-932f-08ff7f388a30 | status=completed
+[2026-03-12 00:17:14]   Waiting 5s before next run…
+[2026-03-12 00:17:19] Starting run 45/120 | Prompt 9 | Rep 5
+[2026-03-12 00:17:21]   run_id=79386c08-f9ac-42ec-8df5-39658e5d6e7b
+[2026-03-12 00:20:37] DONE run 45/120 | prompt_id=9 | rep=5 | run_id=79386c08-f9ac-42ec-8df5-39658e5d6e7b | status=completed
+[2026-03-12 00:20:37]   Waiting 5s before next run…
+[2026-03-12 00:20:42] Starting run 46/120 | Prompt 10 | Rep 1
+[2026-03-12 00:20:44]   run_id=10d66a86-c982-42c3-b1fe-8028a54b2fa8
+[2026-03-12 00:24:01] DONE run 46/120 | prompt_id=10 | rep=1 | run_id=10d66a86-c982-42c3-b1fe-8028a54b2fa8 | status=completed
+[2026-03-12 00:24:01]   Waiting 5s before next run…
+[2026-03-12 00:24:06] Starting run 47/120 | Prompt 10 | Rep 2
+[2026-03-12 00:24:08]   run_id=4dcfb425-dab5-46c6-a6d3-4ba68e6413b8
+[2026-03-12 00:27:25] DONE run 47/120 | prompt_id=10 | rep=2 | run_id=4dcfb425-dab5-46c6-a6d3-4ba68e6413b8 | status=completed
+[2026-03-12 00:27:25]   Waiting 5s before next run…
+[2026-03-12 00:27:30] Starting run 48/120 | Prompt 10 | Rep 3
+[2026-03-12 00:27:32]   run_id=0da1644b-585b-45ee-b875-f15621173c67
+[2026-03-12 00:31:03] DONE run 48/120 | prompt_id=10 | rep=3 | run_id=0da1644b-585b-45ee-b875-f15621173c67 | status=completed
+[2026-03-12 00:31:03]   Waiting 5s before next run…
+[2026-03-12 00:31:08] Starting run 49/120 | Prompt 10 | Rep 4
+[2026-03-12 00:31:10]   run_id=141c3d25-9988-4b85-b2da-17c6d47695d0
+[2026-03-12 00:34:44] DONE run 49/120 | prompt_id=10 | rep=4 | run_id=141c3d25-9988-4b85-b2da-17c6d47695d0 | status=completed
+[2026-03-12 00:34:44]   Waiting 5s before next run…
+[2026-03-12 00:34:49] Starting run 50/120 | Prompt 10 | Rep 5
+[2026-03-12 00:34:51]   run_id=780f8ac4-0f42-477f-a2ea-fae2e0b5bc8b
+[2026-03-12 00:38:01] DONE run 50/120 | prompt_id=10 | rep=5 | run_id=780f8ac4-0f42-477f-a2ea-fae2e0b5bc8b | status=completed
+[2026-03-12 00:38:01]   Waiting 5s before next run…
+[2026-03-12 00:38:06] Starting run 51/120 | Prompt 11 | Rep 1
+[2026-03-12 00:38:08]   run_id=0097ba3d-e2c9-45fc-ba43-7c199dd1bfbc
+[2026-03-12 00:41:23] DONE run 51/120 | prompt_id=11 | rep=1 | run_id=0097ba3d-e2c9-45fc-ba43-7c199dd1bfbc | status=completed
+[2026-03-12 00:41:23]   Waiting 5s before next run…
+[2026-03-12 00:41:28] Starting run 52/120 | Prompt 11 | Rep 2
+[2026-03-12 00:41:30]   run_id=cb7a385b-f2e7-4834-a4e9-6c59e3dbe8bd
+[2026-03-12 00:44:40] DONE run 52/120 | prompt_id=11 | rep=2 | run_id=cb7a385b-f2e7-4834-a4e9-6c59e3dbe8bd | status=completed
+[2026-03-12 00:44:40]   Waiting 5s before next run…
+[2026-03-12 00:44:45] Starting run 53/120 | Prompt 11 | Rep 3
+[2026-03-12 00:44:47]   run_id=d7160346-8b56-4c96-bb5d-e9cae62c5562
+[2026-03-12 00:47:59] DONE run 53/120 | prompt_id=11 | rep=3 | run_id=d7160346-8b56-4c96-bb5d-e9cae62c5562 | status=completed
+[2026-03-12 00:47:59]   Waiting 5s before next run…
+[2026-03-12 00:48:04] Starting run 54/120 | Prompt 11 | Rep 4
+[2026-03-12 00:48:06]   run_id=6585fd3b-8b0e-4f50-b54c-3c88ecd40d75
+[2026-03-12 00:51:16] DONE run 54/120 | prompt_id=11 | rep=4 | run_id=6585fd3b-8b0e-4f50-b54c-3c88ecd40d75 | status=completed
+[2026-03-12 00:51:16]   Waiting 5s before next run…
+[2026-03-12 00:51:21] Starting run 55/120 | Prompt 11 | Rep 5
+[2026-03-12 00:51:23]   run_id=583c8217-fbfb-4a88-886e-bad2c5059ca9
+[2026-03-12 00:54:35] DONE run 55/120 | prompt_id=11 | rep=5 | run_id=583c8217-fbfb-4a88-886e-bad2c5059ca9 | status=completed
+[2026-03-12 00:54:35]   Waiting 5s before next run…
+[2026-03-12 00:54:40] Starting run 56/120 | Prompt 12 | Rep 1
+[2026-03-12 00:54:42]   run_id=d4ef574d-6226-46d4-81b0-3e2390451991
+[2026-03-12 00:57:57] DONE run 56/120 | prompt_id=12 | rep=1 | run_id=d4ef574d-6226-46d4-81b0-3e2390451991 | status=completed
+[2026-03-12 00:57:57]   Waiting 5s before next run…
+[2026-03-12 00:58:02] Starting run 57/120 | Prompt 12 | Rep 2
+[2026-03-12 00:58:04]   run_id=cce3ac5a-4b72-45cf-bb20-6cd19d9d98cf
+[2026-03-12 01:01:15] DONE run 57/120 | prompt_id=12 | rep=2 | run_id=cce3ac5a-4b72-45cf-bb20-6cd19d9d98cf | status=completed
+[2026-03-12 01:01:15]   Waiting 5s before next run…
+[2026-03-12 01:01:20] Starting run 58/120 | Prompt 12 | Rep 3
+[2026-03-12 01:01:22]   run_id=c63a65e2-8485-42d5-8f91-59ef99282997
+[2026-03-12 01:04:39] DONE run 58/120 | prompt_id=12 | rep=3 | run_id=c63a65e2-8485-42d5-8f91-59ef99282997 | status=completed
+[2026-03-12 01:04:39]   Waiting 5s before next run…
+[2026-03-12 01:04:44] Starting run 59/120 | Prompt 12 | Rep 4
+[2026-03-12 01:04:46]   run_id=834a8b1a-470d-4abe-b895-909784c74864
+[2026-03-12 01:07:58] DONE run 59/120 | prompt_id=12 | rep=4 | run_id=834a8b1a-470d-4abe-b895-909784c74864 | status=completed
+[2026-03-12 01:07:58]   Waiting 5s before next run…
+[2026-03-12 01:08:03] Starting run 60/120 | Prompt 12 | Rep 5
+[2026-03-12 01:08:05]   run_id=7342bb4c-0f1e-474a-8c57-bd79267d7de5
+[2026-03-12 01:11:24] DONE run 60/120 | prompt_id=12 | rep=5 | run_id=7342bb4c-0f1e-474a-8c57-bd79267d7de5 | status=completed
+[2026-03-12 01:11:24]   Waiting 5s before next run…
+[2026-03-12 01:11:29] Starting run 61/120 | Prompt 13 | Rep 1
+[2026-03-12 01:11:31]   run_id=f9afaa47-7c6a-4ed7-86e2-0be00e7f2020
+[2026-03-12 01:14:45] DONE run 61/120 | prompt_id=13 | rep=1 | run_id=f9afaa47-7c6a-4ed7-86e2-0be00e7f2020 | status=completed
+[2026-03-12 01:14:45]   Waiting 5s before next run…
+[2026-03-12 01:14:50] Starting run 62/120 | Prompt 13 | Rep 2
+[2026-03-12 01:14:52]   run_id=affd01fd-06f1-4b96-b25d-8fe75c4e8ad6
+[2026-03-12 01:18:08] DONE run 62/120 | prompt_id=13 | rep=2 | run_id=affd01fd-06f1-4b96-b25d-8fe75c4e8ad6 | status=completed
+[2026-03-12 01:18:08]   Waiting 5s before next run…
+[2026-03-12 01:18:13] Starting run 63/120 | Prompt 13 | Rep 3
+[2026-03-12 01:18:15]   run_id=197c5556-7a83-4227-81a5-bd33e8ec65cb
+[2026-03-12 01:21:32] DONE run 63/120 | prompt_id=13 | rep=3 | run_id=197c5556-7a83-4227-81a5-bd33e8ec65cb | status=completed
+[2026-03-12 01:21:32]   Waiting 5s before next run…
+[2026-03-12 01:21:37] Starting run 64/120 | Prompt 13 | Rep 4
+[2026-03-12 01:21:39]   run_id=7b12127c-89bf-4cbf-b331-eab3eef7b9ad
+[2026-03-12 01:24:56] DONE run 64/120 | prompt_id=13 | rep=4 | run_id=7b12127c-89bf-4cbf-b331-eab3eef7b9ad | status=completed
+[2026-03-12 01:24:56]   Waiting 5s before next run…
+[2026-03-12 01:25:01] Starting run 65/120 | Prompt 13 | Rep 5
+[2026-03-12 01:25:03]   run_id=6ae1d6be-b2df-4d0c-af3f-2eafecb4cfd3
+[2026-03-12 01:28:16] DONE run 65/120 | prompt_id=13 | rep=5 | run_id=6ae1d6be-b2df-4d0c-af3f-2eafecb4cfd3 | status=completed
+[2026-03-12 01:28:16]   Waiting 5s before next run…
+[2026-03-12 01:28:21] Starting run 66/120 | Prompt 14 | Rep 1
+[2026-03-12 01:28:23]   run_id=e8c39c66-c509-4930-875d-35fa96fb3adf
+[2026-03-12 01:31:39] DONE run 66/120 | prompt_id=14 | rep=1 | run_id=e8c39c66-c509-4930-875d-35fa96fb3adf | status=completed
+[2026-03-12 01:31:39]   Waiting 5s before next run…
+[2026-03-12 01:31:44] Starting run 67/120 | Prompt 14 | Rep 2
+[2026-03-12 01:31:46]   run_id=d99407f0-df1d-4af7-9359-4eb589a69739
+[2026-03-12 01:35:01] DONE run 67/120 | prompt_id=14 | rep=2 | run_id=d99407f0-df1d-4af7-9359-4eb589a69739 | status=completed
+[2026-03-12 01:35:01]   Waiting 5s before next run…
+[2026-03-12 01:35:06] Starting run 68/120 | Prompt 14 | Rep 3
+[2026-03-12 01:35:08]   run_id=416fc740-6586-4ddf-a9fb-757c9c5c1e23
+[2026-03-12 01:38:21] DONE run 68/120 | prompt_id=14 | rep=3 | run_id=416fc740-6586-4ddf-a9fb-757c9c5c1e23 | status=completed
+[2026-03-12 01:38:21]   Waiting 5s before next run…
+[2026-03-12 01:38:26] Starting run 69/120 | Prompt 14 | Rep 4
+[2026-03-12 01:38:28]   run_id=40c99c74-1a15-458a-aa5c-4d079010ebfc
+[2026-03-12 01:41:56] DONE run 69/120 | prompt_id=14 | rep=4 | run_id=40c99c74-1a15-458a-aa5c-4d079010ebfc | status=completed
+[2026-03-12 01:41:56]   Waiting 5s before next run…
+[2026-03-12 01:42:01] Starting run 70/120 | Prompt 14 | Rep 5
+[2026-03-12 01:42:03]   run_id=96db62b7-4d90-41bc-b1cf-fa63d57315ab
+[2026-03-12 01:45:18] DONE run 70/120 | prompt_id=14 | rep=5 | run_id=96db62b7-4d90-41bc-b1cf-fa63d57315ab | status=completed
+[2026-03-12 01:45:18]   Waiting 5s before next run…
+[2026-03-12 01:45:23] Starting run 71/120 | Prompt 15 | Rep 1
+[2026-03-12 01:45:25]   run_id=6ea874dc-0acc-4cce-8bd3-a86c5bf8e873
+[2026-03-12 01:48:39] DONE run 71/120 | prompt_id=15 | rep=1 | run_id=6ea874dc-0acc-4cce-8bd3-a86c5bf8e873 | status=completed
+[2026-03-12 01:48:39]   Waiting 5s before next run…
+[2026-03-12 01:48:44] Starting run 72/120 | Prompt 15 | Rep 2
+[2026-03-12 01:48:46]   run_id=9e3e10dc-ab23-4b47-9eb1-11e8a6907d19
+[2026-03-12 01:52:13] DONE run 72/120 | prompt_id=15 | rep=2 | run_id=9e3e10dc-ab23-4b47-9eb1-11e8a6907d19 | status=completed
+[2026-03-12 01:52:13]   Waiting 5s before next run…
+[2026-03-12 01:52:18] Starting run 73/120 | Prompt 15 | Rep 3
+[2026-03-12 01:52:20]   run_id=d145e78b-7c70-4816-9d3b-1c5044312356
+[2026-03-12 01:55:30] DONE run 73/120 | prompt_id=15 | rep=3 | run_id=d145e78b-7c70-4816-9d3b-1c5044312356 | status=completed
+[2026-03-12 01:55:30]   Waiting 5s before next run…
+[2026-03-12 01:55:35] Starting run 74/120 | Prompt 15 | Rep 4
+[2026-03-12 01:55:37]   run_id=5e189370-631d-4b85-a0b4-63ee63fd94de
+[2026-03-12 01:58:48] DONE run 74/120 | prompt_id=15 | rep=4 | run_id=5e189370-631d-4b85-a0b4-63ee63fd94de | status=completed
+[2026-03-12 01:58:48]   Waiting 5s before next run…
+[2026-03-12 01:58:53] Starting run 75/120 | Prompt 15 | Rep 5
+[2026-03-12 01:58:55]   run_id=d4b1ba07-7e5c-4ea6-8b4e-db380a6f194d
+[2026-03-12 02:02:07] DONE run 75/120 | prompt_id=15 | rep=5 | run_id=d4b1ba07-7e5c-4ea6-8b4e-db380a6f194d | status=completed
+[2026-03-12 02:02:07]   Waiting 5s before next run…
+[2026-03-12 02:02:12] Starting run 76/120 | Prompt 16 | Rep 1
+[2026-03-12 02:02:14]   run_id=7627e5e4-87b7-4a50-a141-d7f3079705dd
+[2026-03-12 02:05:25] DONE run 76/120 | prompt_id=16 | rep=1 | run_id=7627e5e4-87b7-4a50-a141-d7f3079705dd | status=completed
+[2026-03-12 02:05:25]   Waiting 5s before next run…
+[2026-03-12 02:05:30] Starting run 77/120 | Prompt 16 | Rep 2
+[2026-03-12 02:05:32]   run_id=2e942823-bb0b-4c4f-b8c4-494f8f95e6c8
+[2026-03-12 02:08:41] DONE run 77/120 | prompt_id=16 | rep=2 | run_id=2e942823-bb0b-4c4f-b8c4-494f8f95e6c8 | status=completed
+[2026-03-12 02:08:41]   Waiting 5s before next run…
+[2026-03-12 02:08:46] Starting run 78/120 | Prompt 16 | Rep 3
+[2026-03-12 02:08:48]   run_id=dbb32d06-974f-4fb6-ab1e-2c0bf31910da
+[2026-03-12 02:11:58] DONE run 78/120 | prompt_id=16 | rep=3 | run_id=dbb32d06-974f-4fb6-ab1e-2c0bf31910da | status=completed
+[2026-03-12 02:11:58]   Waiting 5s before next run…
+[2026-03-12 02:12:03] Starting run 79/120 | Prompt 16 | Rep 4
+[2026-03-12 02:12:05]   run_id=17e582c6-0086-426c-9731-bec0e8e28a6a
+[2026-03-12 02:15:16] DONE run 79/120 | prompt_id=16 | rep=4 | run_id=17e582c6-0086-426c-9731-bec0e8e28a6a | status=completed
+[2026-03-12 02:15:16]   Waiting 5s before next run…
+[2026-03-12 02:15:21] Starting run 80/120 | Prompt 16 | Rep 5
+[2026-03-12 02:15:23]   run_id=a30b60eb-2002-44a8-b0c9-c4a1d39da6fc
+[2026-03-12 02:18:34] DONE run 80/120 | prompt_id=16 | rep=5 | run_id=a30b60eb-2002-44a8-b0c9-c4a1d39da6fc | status=completed
+[2026-03-12 02:18:34]   Waiting 5s before next run…
+[2026-03-12 02:18:39] Starting run 81/120 | Prompt 17 | Rep 1
+[2026-03-12 02:18:41]   run_id=b58c740d-1079-4f2e-99a3-a5e2a54c3613
+[2026-03-12 02:21:39] DONE run 81/120 | prompt_id=17 | rep=1 | run_id=b58c740d-1079-4f2e-99a3-a5e2a54c3613 | status=completed
+[2026-03-12 02:21:39]   Waiting 5s before next run…
+[2026-03-12 02:21:44] Starting run 82/120 | Prompt 17 | Rep 2
+[2026-03-12 02:21:46]   run_id=304ac1bf-c4e1-494a-8c8d-424d3d246b65
+[2026-03-12 02:24:46] DONE run 82/120 | prompt_id=17 | rep=2 | run_id=304ac1bf-c4e1-494a-8c8d-424d3d246b65 | status=completed
+[2026-03-12 02:24:46]   Waiting 5s before next run…
+[2026-03-12 02:24:51] Starting run 83/120 | Prompt 17 | Rep 3
+[2026-03-12 02:24:53]   run_id=f0f1b384-2cf2-4e15-9bf4-209fa50db1f5
+[2026-03-12 02:28:04] DONE run 83/120 | prompt_id=17 | rep=3 | run_id=f0f1b384-2cf2-4e15-9bf4-209fa50db1f5 | status=completed
+[2026-03-12 02:28:04]   Waiting 5s before next run…
+[2026-03-12 02:28:09] Starting run 84/120 | Prompt 17 | Rep 4
+[2026-03-12 02:28:11]   run_id=76acdb18-bf86-4b61-9a30-60c4cd72a94f
+[2026-03-12 02:31:25] DONE run 84/120 | prompt_id=17 | rep=4 | run_id=76acdb18-bf86-4b61-9a30-60c4cd72a94f | status=completed
+[2026-03-12 02:31:25]   Waiting 5s before next run…
+[2026-03-12 02:31:30] Starting run 85/120 | Prompt 17 | Rep 5
+[2026-03-12 02:31:32]   run_id=b57ce4c0-5259-484f-b86c-faebe6cf4a57
+[2026-03-12 02:34:43] DONE run 85/120 | prompt_id=17 | rep=5 | run_id=b57ce4c0-5259-484f-b86c-faebe6cf4a57 | status=completed
+[2026-03-12 02:34:43]   Waiting 5s before next run…
+[2026-03-12 02:34:48] Starting run 86/120 | Prompt 18 | Rep 1
+[2026-03-12 02:34:50]   run_id=814ffd65-8eb9-4251-8298-fdca77faa7b0
+[2026-03-12 02:38:06] DONE run 86/120 | prompt_id=18 | rep=1 | run_id=814ffd65-8eb9-4251-8298-fdca77faa7b0 | status=completed
+[2026-03-12 02:38:06]   Waiting 5s before next run…
+[2026-03-12 02:38:11] Starting run 87/120 | Prompt 18 | Rep 2
+[2026-03-12 02:38:14]   run_id=89869960-d87b-4d8c-bc5a-0c87b5192637
+[2026-03-12 02:41:23] DONE run 87/120 | prompt_id=18 | rep=2 | run_id=89869960-d87b-4d8c-bc5a-0c87b5192637 | status=completed
+[2026-03-12 02:41:23]   Waiting 5s before next run…
+[2026-03-12 02:41:28] Starting run 88/120 | Prompt 18 | Rep 3
+[2026-03-12 02:41:30]   run_id=384906fa-3d95-46f5-9d68-3b4e84a285bd
+[2026-03-12 02:44:43] DONE run 88/120 | prompt_id=18 | rep=3 | run_id=384906fa-3d95-46f5-9d68-3b4e84a285bd | status=completed
+[2026-03-12 02:44:43]   Waiting 5s before next run…
+[2026-03-12 02:44:48] Starting run 89/120 | Prompt 18 | Rep 4
+[2026-03-12 02:44:50]   run_id=8bd5a1ee-38e5-4bf9-a3cf-45e423005ed9
+[2026-03-12 02:47:50] DONE run 89/120 | prompt_id=18 | rep=4 | run_id=8bd5a1ee-38e5-4bf9-a3cf-45e423005ed9 | status=completed
+[2026-03-12 02:47:50]   Waiting 5s before next run…
+[2026-03-12 02:47:55] Starting run 90/120 | Prompt 18 | Rep 5
+[2026-03-12 02:47:58]   run_id=5a0b1814-bfb1-4932-8896-1f2efc5b1528
+[2026-03-12 02:51:13] DONE run 90/120 | prompt_id=18 | rep=5 | run_id=5a0b1814-bfb1-4932-8896-1f2efc5b1528 | status=completed
+[2026-03-12 02:51:13]   Waiting 5s before next run…
+[2026-03-12 02:51:18] Starting run 91/120 | Prompt 19 | Rep 1
+[2026-03-12 02:51:20]   run_id=bff3fda9-a751-43fd-9f81-1f042c975189
+[2026-03-12 02:54:31] DONE run 91/120 | prompt_id=19 | rep=1 | run_id=bff3fda9-a751-43fd-9f81-1f042c975189 | status=completed
+[2026-03-12 02:54:31]   Waiting 5s before next run…
+[2026-03-12 02:54:36] Starting run 92/120 | Prompt 19 | Rep 2
+[2026-03-12 02:54:38]   run_id=d3c9828e-b255-4189-9367-13f812210a6c
+[2026-03-12 02:57:53] DONE run 92/120 | prompt_id=19 | rep=2 | run_id=d3c9828e-b255-4189-9367-13f812210a6c | status=completed
+[2026-03-12 02:57:53]   Waiting 5s before next run…
+[2026-03-12 02:57:58] Starting run 93/120 | Prompt 19 | Rep 3
+[2026-03-12 02:58:00]   run_id=80f5b11b-9dd4-4040-9b50-193a8660f059
+[2026-03-12 03:01:14] DONE run 93/120 | prompt_id=19 | rep=3 | run_id=80f5b11b-9dd4-4040-9b50-193a8660f059 | status=completed
+[2026-03-12 03:01:14]   Waiting 5s before next run…
+[2026-03-12 03:01:19] Starting run 94/120 | Prompt 19 | Rep 4
+[2026-03-12 03:01:21]   run_id=7fdb8f0c-22a2-4fcd-8418-687d8dfd4d55
+[2026-03-12 03:04:32] DONE run 94/120 | prompt_id=19 | rep=4 | run_id=7fdb8f0c-22a2-4fcd-8418-687d8dfd4d55 | status=completed
+[2026-03-12 03:04:32]   Waiting 5s before next run…
+[2026-03-12 03:04:37] Starting run 95/120 | Prompt 19 | Rep 5
+[2026-03-12 03:04:39]   run_id=3602fd53-2f56-44bd-937e-916623fbe2fe
+[2026-03-12 03:07:53] DONE run 95/120 | prompt_id=19 | rep=5 | run_id=3602fd53-2f56-44bd-937e-916623fbe2fe | status=completed
+[2026-03-12 03:07:53]   Waiting 5s before next run…
+[2026-03-12 03:07:58] Starting run 96/120 | Prompt 20 | Rep 1
+[2026-03-12 03:08:00]   run_id=7572b1b8-c966-46f9-9ffe-2f28fe57c964
+[2026-03-12 03:11:10] DONE run 96/120 | prompt_id=20 | rep=1 | run_id=7572b1b8-c966-46f9-9ffe-2f28fe57c964 | status=completed
+[2026-03-12 03:11:10]   Waiting 5s before next run…
+[2026-03-12 03:11:15] Starting run 97/120 | Prompt 20 | Rep 2
+[2026-03-12 03:11:17]   run_id=7838def3-ae4b-49aa-b8ab-22a4221a296a
+[2026-03-12 03:14:32] DONE run 97/120 | prompt_id=20 | rep=2 | run_id=7838def3-ae4b-49aa-b8ab-22a4221a296a | status=completed
+[2026-03-12 03:14:32]   Waiting 5s before next run…
+[2026-03-12 03:14:37] Starting run 98/120 | Prompt 20 | Rep 3
+[2026-03-12 03:14:39]   run_id=e3208b4c-cec0-4943-9571-edc8d8ec3128
+[2026-03-12 03:17:54] DONE run 98/120 | prompt_id=20 | rep=3 | run_id=e3208b4c-cec0-4943-9571-edc8d8ec3128 | status=completed
+[2026-03-12 03:17:54]   Waiting 5s before next run…
+[2026-03-12 03:17:59] Starting run 99/120 | Prompt 20 | Rep 4
+[2026-03-12 03:18:01]   run_id=717eedb8-09b0-4a35-b142-a3731783990a
+[2026-03-12 03:21:11] DONE run 99/120 | prompt_id=20 | rep=4 | run_id=717eedb8-09b0-4a35-b142-a3731783990a | status=completed
+[2026-03-12 03:21:11]   Waiting 5s before next run…
+[2026-03-12 03:21:16] Starting run 100/120 | Prompt 20 | Rep 5
+[2026-03-12 03:21:18]   run_id=61d21681-4370-43d2-901d-33ba63cbc233
+[2026-03-12 03:24:47] DONE run 100/120 | prompt_id=20 | rep=5 | run_id=61d21681-4370-43d2-901d-33ba63cbc233 | status=completed
+[2026-03-12 03:24:47]   Waiting 5s before next run…
+[2026-03-12 03:24:52] Starting run 101/120 | Prompt 21 | Rep 1
+[2026-03-12 03:24:54]   run_id=d0c0b91f-6972-44bb-ae03-141252c25f2b
+[2026-03-12 03:28:12] DONE run 101/120 | prompt_id=21 | rep=1 | run_id=d0c0b91f-6972-44bb-ae03-141252c25f2b | status=completed
+[2026-03-12 03:28:12]   Waiting 5s before next run…
+[2026-03-12 03:28:17] Starting run 102/120 | Prompt 21 | Rep 2
+[2026-03-12 03:28:19]   run_id=b9deac58-88ad-478b-822b-9707fe327c24
+[2026-03-12 03:31:49] DONE run 102/120 | prompt_id=21 | rep=2 | run_id=b9deac58-88ad-478b-822b-9707fe327c24 | status=completed
+[2026-03-12 03:31:49]   Waiting 5s before next run…
+[2026-03-12 03:31:54] Starting run 103/120 | Prompt 21 | Rep 3
+[2026-03-12 03:31:56]   run_id=0ce2bd0a-ac66-415a-a2d2-986b39cf43c1
+[2026-03-12 03:35:06] DONE run 103/120 | prompt_id=21 | rep=3 | run_id=0ce2bd0a-ac66-415a-a2d2-986b39cf43c1 | status=completed
+[2026-03-12 03:35:06]   Waiting 5s before next run…
+[2026-03-12 03:35:11] Starting run 104/120 | Prompt 21 | Rep 4
+[2026-03-12 03:35:13]   run_id=b5cc6030-7f28-4176-9ea4-b8496353c8e5
+[2026-03-12 03:38:09] DONE run 104/120 | prompt_id=21 | rep=4 | run_id=b5cc6030-7f28-4176-9ea4-b8496353c8e5 | status=completed
+[2026-03-12 03:38:09]   Waiting 5s before next run…
+[2026-03-12 03:38:14] Starting run 105/120 | Prompt 21 | Rep 5
+[2026-03-12 03:38:17]   run_id=7979a057-b9cd-41c8-9d65-bd4ebb25c861
+[2026-03-12 03:41:13] DONE run 105/120 | prompt_id=21 | rep=5 | run_id=7979a057-b9cd-41c8-9d65-bd4ebb25c861 | status=completed
+[2026-03-12 03:41:13]   Waiting 5s before next run…
+[2026-03-12 03:41:18] Starting run 106/120 | Prompt 22 | Rep 1
+[2026-03-12 03:41:20]   run_id=d4b3a640-0dd4-40bb-85f4-e5f69a359fcb
+[2026-03-12 03:44:29] DONE run 106/120 | prompt_id=22 | rep=1 | run_id=d4b3a640-0dd4-40bb-85f4-e5f69a359fcb | status=completed
+[2026-03-12 03:44:29]   Waiting 5s before next run…
+[2026-03-12 03:44:34] Starting run 107/120 | Prompt 22 | Rep 2
+[2026-03-12 03:44:36]   run_id=92a12d13-fa74-40d2-bf2e-48610d72c67e
+[2026-03-12 03:47:46] DONE run 107/120 | prompt_id=22 | rep=2 | run_id=92a12d13-fa74-40d2-bf2e-48610d72c67e | status=completed
+[2026-03-12 03:47:46]   Waiting 5s before next run…
+[2026-03-12 03:47:51] Starting run 108/120 | Prompt 22 | Rep 3
+[2026-03-12 03:47:53]   run_id=beb82f35-3d72-483b-a7ed-5115b2cdfbb2
+[2026-03-12 03:50:50] DONE run 108/120 | prompt_id=22 | rep=3 | run_id=beb82f35-3d72-483b-a7ed-5115b2cdfbb2 | status=completed
+[2026-03-12 03:50:50]   Waiting 5s before next run…
+[2026-03-12 03:50:55] Starting run 109/120 | Prompt 22 | Rep 4
+[2026-03-12 03:50:57]   run_id=b90e97ea-4cd2-48a6-847c-43f9f0994297
+[2026-03-12 03:54:13] DONE run 109/120 | prompt_id=22 | rep=4 | run_id=b90e97ea-4cd2-48a6-847c-43f9f0994297 | status=completed
+[2026-03-12 03:54:13]   Waiting 5s before next run…
+[2026-03-12 03:54:18] Starting run 110/120 | Prompt 22 | Rep 5
+[2026-03-12 03:54:20]   run_id=99946d53-db78-4e36-a02c-339706f33aef
+[2026-03-12 03:57:33] DONE run 110/120 | prompt_id=22 | rep=5 | run_id=99946d53-db78-4e36-a02c-339706f33aef | status=completed
+[2026-03-12 03:57:33]   Waiting 5s before next run…
+[2026-03-12 03:57:38] Starting run 111/120 | Prompt 23 | Rep 1
+[2026-03-12 03:57:40]   run_id=d16e169c-89bf-4625-8a35-e1d71ac86b2b
+[2026-03-12 04:00:50] DONE run 111/120 | prompt_id=23 | rep=1 | run_id=d16e169c-89bf-4625-8a35-e1d71ac86b2b | status=completed
+[2026-03-12 04:00:50]   Waiting 5s before next run…
+[2026-03-12 04:00:55] Starting run 112/120 | Prompt 23 | Rep 2
+[2026-03-12 04:00:57]   run_id=5380424f-7f69-42fa-8c87-c51c0f7f1495
+[2026-03-12 04:04:12] DONE run 112/120 | prompt_id=23 | rep=2 | run_id=5380424f-7f69-42fa-8c87-c51c0f7f1495 | status=completed
+[2026-03-12 04:04:12]   Waiting 5s before next run…
+[2026-03-12 04:04:17] Starting run 113/120 | Prompt 23 | Rep 3
+[2026-03-12 04:04:19]   run_id=c2c9c943-1c46-46d0-aa9f-3bedae6e4b12
+[2026-03-12 04:07:31] DONE run 113/120 | prompt_id=23 | rep=3 | run_id=c2c9c943-1c46-46d0-aa9f-3bedae6e4b12 | status=completed
+[2026-03-12 04:07:31]   Waiting 5s before next run…
+[2026-03-12 04:07:36] Starting run 114/120 | Prompt 23 | Rep 4
+[2026-03-12 04:07:38]   run_id=fa38a89b-9b3f-4ce0-a562-0ac0e60ffbc4
+[2026-03-12 04:10:51] DONE run 114/120 | prompt_id=23 | rep=4 | run_id=fa38a89b-9b3f-4ce0-a562-0ac0e60ffbc4 | status=completed
+[2026-03-12 04:10:51]   Waiting 5s before next run…
+[2026-03-12 04:10:56] Starting run 115/120 | Prompt 23 | Rep 5
+[2026-03-12 04:10:58]   run_id=98eb00e8-6d61-43f9-9dc6-c1a9b91b96b3
+[2026-03-12 04:14:08] DONE run 115/120 | prompt_id=23 | rep=5 | run_id=98eb00e8-6d61-43f9-9dc6-c1a9b91b96b3 | status=completed
+[2026-03-12 04:14:08]   Waiting 5s before next run…
+[2026-03-12 04:14:13] Starting run 116/120 | Prompt 24 | Rep 1
+[2026-03-12 04:14:15]   run_id=94c8221b-4b79-4c73-bf31-35db9ddd47e6
+[2026-03-12 04:17:30] DONE run 116/120 | prompt_id=24 | rep=1 | run_id=94c8221b-4b79-4c73-bf31-35db9ddd47e6 | status=completed
+[2026-03-12 04:17:30]   Waiting 5s before next run…
+[2026-03-12 04:17:35] Starting run 117/120 | Prompt 24 | Rep 2
+[2026-03-12 04:17:37]   run_id=47c8dd45-b829-408b-9754-b83e894d5351
+[2026-03-12 04:20:52] DONE run 117/120 | prompt_id=24 | rep=2 | run_id=47c8dd45-b829-408b-9754-b83e894d5351 | status=completed
+[2026-03-12 04:20:52]   Waiting 5s before next run…
+[2026-03-12 04:20:57] Starting run 118/120 | Prompt 24 | Rep 3
+[2026-03-12 04:20:59]   run_id=a80d1a5e-e396-4ed8-8739-c4e3bfced40a
+[2026-03-12 04:24:09] DONE run 118/120 | prompt_id=24 | rep=3 | run_id=a80d1a5e-e396-4ed8-8739-c4e3bfced40a | status=completed
+[2026-03-12 04:24:09]   Waiting 5s before next run…
+[2026-03-12 04:24:14] Starting run 119/120 | Prompt 24 | Rep 4
+[2026-03-12 04:24:16]   run_id=13d43bc5-09a1-4524-8a60-9282cd6d0344
+[2026-03-12 04:27:26] DONE run 119/120 | prompt_id=24 | rep=4 | run_id=13d43bc5-09a1-4524-8a60-9282cd6d0344 | status=completed
+[2026-03-12 04:27:26]   Waiting 5s before next run…
+[2026-03-12 04:27:31] Starting run 120/120 | Prompt 24 | Rep 5
+[2026-03-12 04:27:33]   run_id=feca666c-41a7-43fc-b50c-15f302b89e15
+[2026-03-12 04:30:42] DONE run 120/120 | prompt_id=24 | rep=5 | run_id=feca666c-41a7-43fc-b50c-15f302b89e15 | status=completed
+[2026-03-12 04:30:42] === Batch complete — 120 runs processed ===

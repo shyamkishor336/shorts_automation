@@ -1,0 +1,1203 @@
+INFO:     Will watch for changes in these directories: ['d:\\dessertation\\shorts_automation']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [13876] using WatchFiles
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]An error occurred while trying to fetch C:\Users\Shyam Kishor\.cache\huggingface\hub\models--Lykon--DreamShaper\snapshots\228d79cb20811466f5c5710aa91f05dabd0b8a14\vae: Error no file named diffusion_pytorch_model.safetensors found in directory C:\Users\Shyam Kishor\.cache\huggingface\hub\models--Lykon--DreamShaper\snapshots\228d79cb20811466f5c5710aa91f05dabd0b8a14\vae.
+Defaulting to unsafe serialization. Pass `allow_pickle=False` to raise an error instead.
+Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.26it/s]CLIPFeatureExtractor appears to have been deprecated in transformers. Using CLIPImageProcessor instead.
+
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 196/196 [00:00<00:00, 2885.93it/s]
+[1mCLIPTextModel LOAD REPORT[0m from: C:\Users\Shyam Kishor\.cache\huggingface\hub\models--Lykon--DreamShaper\snapshots\228d79cb20811466f5c5710aa91f05dabd0b8a14\text_encoder
+Key                                | Status     |  | 
+-----------------------------------+------------+--+-
+text_model.embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+Loading pipeline components...:  83%|████████▎ | 5/6 [00:00<00:00,  9.85it/s]An error occurred while trying to fetch C:\Users\Shyam Kishor\.cache\huggingface\hub\models--Lykon--DreamShaper\snapshots\228d79cb20811466f5c5710aa91f05dabd0b8a14\unet: Error no file named diffusion_pytorch_model.safetensors found in directory C:\Users\Shyam Kishor\.cache\huggingface\hub\models--Lykon--DreamShaper\snapshots\228d79cb20811466f5c5710aa91f05dabd0b8a14\unet.
+Defaulting to unsafe serialization. Pass `allow_pickle=False` to raise an error instead.
+WARNING:  WatchFiles detected changes in 'backend\pipeline\stage3_visual.py'. Reloading...
+ Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00, 15.23it/s]An error occurred while trying to fetch C:\Users\Shyam Kishor\.cache\huggingface\hub\models--Lykon--DreamShaper\snapshots\228d79cb20811466f5c5710aa91f05dabd0b8a14\unet: Error no file named diffusion_pytorch_model.safetensors found in directory C:\Users\Shyam Kishor\.cache\huggingface\hub\models--Lykon--DreamShaper\snapshots\228d79cb20811466f5c5710aa91f05dabd0b8a14\unet.
+Defaulting to unsafe serialization. Pass `allow_pickle=False` to raise an error instead.
+CLIPFeatureExtractor appears to have been deprecated in transformers. Using CLIPImageProcessor instead.
+Loading pipeline components...:  67%|██████▋   | 4/6 [00:08<00:04,  2.41s/it]
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s][A
+Loading weights:   1%|          | 2/196 [00:00<01:01,  3.13it/s][A
+Loading weights:  78%|███████▊  | 152/196 [00:00<00:00, 260.78it/s][ALoading weights: 100%|██████████| 196/196 [00:00<00:00, 217.72it/s]
+[1mCLIPTextModel LOAD REPORT[0m from: C:\Users\Shyam Kishor\.cache\huggingface\hub\models--Lykon--DreamShaper\snapshots\228d79cb20811466f5c5710aa91f05dabd0b8a14\text_encoder
+Key                                | Status     |  | 
+-----------------------------------+------------+--+-
+text_model.embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+Loading pipeline components...:  83%|████████▎ | 5/6 [00:09<00:02,  2.15s/it]An error occurred while trying to fetch C:\Users\Shyam Kishor\.cache\huggingface\hub\models--Lykon--DreamShaper\snapshots\228d79cb20811466f5c5710aa91f05dabd0b8a14\vae: Error no file named diffusion_pytorch_model.safetensors found in directory C:\Users\Shyam Kishor\.cache\huggingface\hub\models--Lykon--DreamShaper\snapshots\228d79cb20811466f5c5710aa91f05dabd0b8a14\vae.
+Defaulting to unsafe serialization. Pass `allow_pickle=False` to raise an error instead.
+Loading pipeline components...: 100%|██████████| 6/6 [00:10<00:00,  1.87s/it]Loading pipeline components...: 100%|██████████| 6/6 [00:10<00:00,  1.83s/it]
+You have disabled the safety checker for <class 'diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion.StableDiffusionPipeline'> by passing `safety_checker=None`. Ensure that you abide to the conditions of the Stable Diffusion license and do not expose unfiltered results in services or applications open to the public. Both the diffusers team and Hugging Face strongly recommend to keep the safety filter enabled in all public facing circumstances, disabling it only for use-cases that involve analyzing network behavior or auditing its results. For more information, please have a look at https://github.com/huggingface/diffusers/pull/254 .
+WARNING:  WatchFiles detected changes in 'backend\pipeline\stage3_visual.py'. Reloading...
+ INFO:     Started server process [34424]
+INFO:     Waiting for application startup.
+2026-03-11 12:30:25,297 [INFO] backend.database: Database tables created / verified.
+2026-03-11 12:30:25,297 [INFO] backend.main: HITL Pipeline API started.
+2026-03-11 12:30:25,297 [INFO] backend.main: Output directory: data\outputs
+INFO:     Application startup complete.
+INFO:     127.0.0.1:61625 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61624 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54398 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64671 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64670 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49352 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49350 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59990 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63808 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63806 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58109 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57874 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57873 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56784 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56465 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54924 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56044 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56042 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62916 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65332 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65331 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64764 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63133 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63812 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65102 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49673 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59637 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58747 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65008 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64420 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64418 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57571 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59053 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60489 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61621 - "GET /runs/4dbacaf7-6cd4-4283-9d70-7047bc5fc6ef/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56883 - "HEAD /runs/4dbacaf7-6cd4-4283-9d70-7047bc5fc6ef/output/final-video HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:56886 - "HEAD /runs/4dbacaf7-6cd4-4283-9d70-7047bc5fc6ef/output/final-video HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:56887 - "GET /runs/4dbacaf7-6cd4-4283-9d70-7047bc5fc6ef/output/script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61499 - "GET /runs/4dbacaf7-6cd4-4283-9d70-7047bc5fc6ef/output/script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56909 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56908 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53113 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52604 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53136 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61917 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51220 - "GET /runs/4dbacaf7-6cd4-4283-9d70-7047bc5fc6ef/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50157 - "HEAD /runs/4dbacaf7-6cd4-4283-9d70-7047bc5fc6ef/output/final-video HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:50160 - "HEAD /runs/4dbacaf7-6cd4-4283-9d70-7047bc5fc6ef/output/final-video HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:50161 - "GET /runs/4dbacaf7-6cd4-4283-9d70-7047bc5fc6ef/output/script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58733 - "GET /runs/4dbacaf7-6cd4-4283-9d70-7047bc5fc6ef/output/script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62228 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56931 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50890 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63429 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61427 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54605 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52477 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62952 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60394 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51605 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58297 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53255 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58497 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49923 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49924 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58167 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59282 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59381 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54818 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63470 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50462 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52311 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64248 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53555 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65062 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63392 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49841 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51846 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57262 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64740 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50448 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65506 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57973 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64036 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65456 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65457 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50264 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56920 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56905 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52359 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60870 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63846 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58671 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62881 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51795 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57848 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55040 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63902 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56935 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64362 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59282 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56839 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56837 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58353 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64392 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55915 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60770 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60768 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62502 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64274 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64273 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51008 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50425 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51220 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54168 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53878 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51220 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56655 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64244 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60046 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60045 - "POST /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64492 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64490 - "GET /runs/49205d17-a34c-4d19-910e-eaac1175dfb0/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55654 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49846 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65437 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50402 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50403 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54584 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55204 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52022 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57527 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64790 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63744 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58497 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64112 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53783 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63923 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63924 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62685 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50652 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56174 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50621 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55780 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62748 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58067 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52107 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55350 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58983 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58984 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49854 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55043 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60525 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56849 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58595 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54832 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50520 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57262 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56947 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62044 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62045 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60301 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50478 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52912 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52672 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50522 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49747 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58647 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50132 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60996 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64603 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64604 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53501 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55917 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63992 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51349 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56468 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64776 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55043 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64144 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60998 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55415 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55416 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57425 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59282 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52158 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59769 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54174 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58847 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55727 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56932 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55263 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58262 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58263 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51770 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58260 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61212 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49895 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64775 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60296 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52757 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52761 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52760 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61399 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53324 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55192 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62707 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59282 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56383 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56382 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51837 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51681 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51680 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51222 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53023 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50386 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62208 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62212 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62211 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54082 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58239 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60175 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61349 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55462 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52729 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53093 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60295 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59677 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53565 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65089 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50269 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63764 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61775 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57752 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58209 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55517 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57158 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58169 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63925 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57880 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49858 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55409 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52336 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52839 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59740 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58507 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61694 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56735 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53575 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51981 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49245 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54160 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59399 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55231 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55235 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55237 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55234 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50721 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64176 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65092 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54362 - "GET /runs/4dbacaf7-6cd4-4283-9d70-7047bc5fc6ef/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50789 - "GET /runs/4dbacaf7-6cd4-4283-9d70-7047bc5fc6ef/video HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50790 - "GET /runs/4dbacaf7-6cd4-4283-9d70-7047bc5fc6ef/output/script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55705 - "GET /runs/4dbacaf7-6cd4-4283-9d70-7047bc5fc6ef/output/script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56206 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55605 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63350 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62542 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50087 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56137 - "GET /runs/ea6417eb-1675-424c-8622-3181ff486407/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49943 - "GET /runs/ea6417eb-1675-424c-8622-3181ff486407/output/script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53742 - "GET /runs/ea6417eb-1675-424c-8622-3181ff486407/video HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53743 - "GET /runs/ea6417eb-1675-424c-8622-3181ff486407/output/script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50664 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56170 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52833 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /runs/d71da0e1-37f8-4327-9310-d6d7b6b0520d/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57061 - "GET /runs/d71da0e1-37f8-4327-9310-d6d7b6b0520d/video HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63964 - "GET /runs/d71da0e1-37f8-4327-9310-d6d7b6b0520d/output/script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53512 - "GET /runs/d71da0e1-37f8-4327-9310-d6d7b6b0520d/output/script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52523 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52525 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63269 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59632 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62661 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63783 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60598 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57999 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57590 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51739 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63939 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62237 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62238 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64428 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50062 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50789 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54037 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57107 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50347 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55362 - "POST /runs/start HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\applications.py", line 1160, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\cors.py", line 95, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\cors.py", line 153, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\routing.py", line 130, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\routing.py", line 116, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\routing.py", line 670, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\routing.py", line 326, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_backends\_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_backends\_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\dessertation\shorts_automation\backend\routers\runs.py", line 158, in start_run
+    _pid = body.prompt_id
+                   ^^^^^^^
+  File "d:\dessertation\shorts_automation\backend\pipeline\orchestrator.py", line 50, in __init__
+    self.visual_gen = Stage3VisualGenerator()
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\dessertation\shorts_automation\backend\pipeline\stage3_visual.py", line 37, in __init__
+    """
+        
+NameError: name 'ProviderManager' is not defined
+INFO:     127.0.0.1:58437 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51222 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52653 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49848 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50253 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54034 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50062 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50064 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55668 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64618 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54798 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56777 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63755 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59159 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57772 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63283 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57462 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54891 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62370 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58402 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50652 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64962 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53311 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57712 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62819 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59948 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62824 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61198 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61199 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65516 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58315 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61003 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51637 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63471 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62003 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49845 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54151 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64716 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63965 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53643 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57818 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58282 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54688 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61414 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62488 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54514 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63368 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55558 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58102 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60006 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57560 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64466 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51696 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64354 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55167 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56363 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58018 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51549 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57045 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62875 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58650 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54921 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59632 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61186 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50210 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50287 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59125 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56203 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56204 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56052 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59950 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57682 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52083 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54811 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58577 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58983 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58984 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53451 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57821 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65048 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58828 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58829 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52071 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63484 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63482 - "POST /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52379 - "GET /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52381 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58086 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58818 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56498 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54793 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58675 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59483 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64618 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61372 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61373 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62764 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52105 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51555 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59389 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53378 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51220 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52054 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53674 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61345 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61346 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57315 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61878 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57902 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61356 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53837 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58566 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52762 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60672 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55070 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56579 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56580 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50328 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59282 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52309 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61937 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53567 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60964 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54830 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56236 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49939 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52563 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52564 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59347 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61533 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61534 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56809 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53123 - "POST /runs/start HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\applications.py", line 1160, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\cors.py", line 95, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\cors.py", line 153, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\routing.py", line 130, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\routing.py", line 116, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\routing.py", line 670, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\routing.py", line 326, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_backends\_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_backends\_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\dessertation\shorts_automation\backend\routers\runs.py", line 158, in start_run
+    _pid = body.prompt_id
+                   ^^^^^^^
+  File "d:\dessertation\shorts_automation\backend\pipeline\orchestrator.py", line 50, in __init__
+    self.visual_gen = Stage3VisualGenerator()
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\dessertation\shorts_automation\backend\pipeline\stage3_visual.py", line 37, in __init__
+    """
+        
+NameError: name 'ProviderManager' is not defined
+INFO:     127.0.0.1:58605 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52136 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56259 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62187 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64044 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63889 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58639 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62451 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65186 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65187 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50782 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59065 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64676 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58702 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54180 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54091 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62471 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55317 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49347 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62868 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62617 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60936 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55595 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55774 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58414 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59282 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53267 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55634 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50733 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61475 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61476 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53025 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50122 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53644 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54536 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64725 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59076 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49975 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57034 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61738 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60401 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58982 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56729 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55922 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56247 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62938 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50243 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53267 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53230 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60735 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52953 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52954 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60596 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59395 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60124 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55330 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51744 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53729 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52166 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59544 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64802 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61028 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61124 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54513 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57052 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63525 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60977 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61239 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65097 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54215 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57503 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61214 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61216 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58982 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61251 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58362 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60131 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57972 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62934 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63767 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49257 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52764 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57920 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58734 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49967 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59282 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54302 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57824 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63113 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60133 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51670 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49345 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49346 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65173 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52312 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62589 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64167 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55161 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56751 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63105 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50696 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57959 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64912 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64913 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50878 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60341 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60343 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60342 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62050 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51221 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51222 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62453 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59510 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61042 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53270 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56803 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64026 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59712 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54685 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52127 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62555 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52381 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55677 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65457 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62789 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64617 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54006 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56904 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62101 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62103 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62102 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50508 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50511 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50512 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50514 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52685 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54221 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63958 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60843 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60845 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60844 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57951 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57952 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61573 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57262 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65214 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49994 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57784 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65524 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52668 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65228 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63726 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65492 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51511 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53009 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49843 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50062 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52919 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54839 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50490 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64725 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57048 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54377 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52830 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63484 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63486 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55774 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61111 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55055 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53800 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51775 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60584 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51553 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51982 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62807 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58514 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59146 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55210 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62282 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57411 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64085 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52810 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61528 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54358 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60710 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61493 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61494 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54091 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53814 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61246 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54976 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65091 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54401 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63595 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54122 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55417 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59582 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52988 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50295 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57725 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54311 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61731 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63148 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54138 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54216 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56786 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61306 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61307 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63583 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52907 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54052 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52113 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61138 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60424 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51008 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55056 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52344 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65320 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49791 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62851 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52956 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56575 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52545 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50300 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62520 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52808 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53425 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49850 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60777 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63744 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63747 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63746 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63535 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56632 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56634 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58773 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63324 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56055 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56705 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60633 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64745 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63489 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62954 - "GET /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56723 - "DELETE /runs/64dcf948-c64b-4993-a40b-cc851a4a2fa3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49244 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65193 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62357 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64304 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56833 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55491 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54654 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49284 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49286 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49285 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56465 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56466 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57664 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55671 - "POST /runs/start HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\applications.py", line 1160, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\cors.py", line 95, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\cors.py", line 153, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\routing.py", line 130, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\routing.py", line 116, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\routing.py", line 670, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\routing.py", line 326, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_backends\_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_backends\_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\dessertation\shorts_automation\backend\routers\runs.py", line 158, in start_run
+    _pid = body.prompt_id
+                   ^^^^^^^
+  File "d:\dessertation\shorts_automation\backend\pipeline\orchestrator.py", line 50, in __init__
+    self.visual_gen = Stage3VisualGenerator()
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\dessertation\shorts_automation\backend\pipeline\stage3_visual.py", line 37, in __init__
+    ).to("cuda")
+                 
+NameError: name 'ProviderManager' is not defined
+INFO:     127.0.0.1:51795 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60995 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63951 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49170 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56595 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50724 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55095 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59282 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55740 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61725 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50380 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54510 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65410 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53836 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63441 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52198 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52199 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64453 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60019 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58464 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51598 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59784 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62740 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54772 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54775 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54773 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58122 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59382 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59384 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57952 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57676 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59117 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56671 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57498 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52277 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56271 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59137 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59025 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61994 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60266 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61555 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51776 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56364 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62373 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58264 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49768 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51789 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59152 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57652 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57653 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57135 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64300 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49826 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55540 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62404 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60083 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61922 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65186 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58778 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53028 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60668 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56914 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65371 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50452 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56859 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54138 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57828 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62663 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58816 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58817 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55087 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51379 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54491 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57107 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51988 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54021 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55064 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64403 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52261 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50211 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60410 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59282 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63245 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62219 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58302 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61430 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57773 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62016 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63785 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51221 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51222 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53327 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51527 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53018 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53843 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53744 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55166 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63399 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59922 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58014 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54502 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50196 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50373 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58982 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50150 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51451 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52473 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52780 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59867 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64952 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56319 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56321 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53805 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62059 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51431 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59513 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60850 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55873 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63817 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63118 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61784 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53105 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61157 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50201 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64294 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58472 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58475 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58474 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53161 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52027 - "GET /prompts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52029 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58187 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62725 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62910 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55320 - "GET /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61939 - "DELETE /runs/5289a475-5d5c-4a11-9cf4-fc87b5fea1e4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65464 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59767 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57806 - "DELETE /runs/92de654a-97ed-438f-b8a1-5e350b4d0fe8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58718 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54084 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55025 - "DELETE /runs/49205d17-a34c-4d19-910e-eaac1175dfb0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56658 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60533 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57716 - "DELETE /runs/0220a323-4407-4f57-bf82-929c56670d06 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62434 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56526 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60243 - "DELETE /runs/cd4095bb-448e-431d-9d35-ba18b7fa5fad HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49937 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60550 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57516 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62797 - "POST /runs/start HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 410, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\applications.py", line 1160, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\cors.py", line 95, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\cors.py", line 153, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\routing.py", line 130, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\routing.py", line 116, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\routing.py", line 670, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\routing.py", line 326, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_backends\_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\Shyam Kishor\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_backends\_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\dessertation\shorts_automation\backend\routers\runs.py", line 158, in start_run
+    _pid = body.prompt_id
+                   ^^^^^^^
+  File "d:\dessertation\shorts_automation\backend\pipeline\orchestrator.py", line 50, in __init__
+    self.visual_gen = Stage3VisualGenerator()
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\dessertation\shorts_automation\backend\pipeline\stage3_visual.py", line 37, in __init__
+    ).to("cuda")
+                 
+NameError: name 'ProviderManager' is not defined
+INFO:     127.0.0.1:58729 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55287 - "GET /runs/80f4d5de-77da-46a8-b7a3-0bfc9005a15c/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53083 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61702 - "GET /runs/80f4d5de-77da-46a8-b7a3-0bfc9005a15c/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63924 - "GET /providers/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63925 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52701 - "GET /runs/80f4d5de-77da-46a8-b7a3-0bfc9005a15c/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60662 - "GET /runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55110 - "GET /runs/80f4d5de-77da-46a8-b7a3-0bfc9005a15c/status HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'backend\pipeline\stage3_visual.py', 'backend\config.py', 'backend\pipeline\orchestrator.py', 'backend\routers\runs.py', 'backend\pipeline\stage4_assembly.py'. Reloading...
+ 
