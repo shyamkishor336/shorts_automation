@@ -228,10 +228,6 @@ Or click the **↺** button next to the provider in the UI.
 | Provider | Clips | Method | Notes |
 |----------|-------|--------|-------|
 | Modal.com | 550 | Real-time API | ~$30/month |
-| Kaggle | 400 | Batch (manual) | 30 hrs/week free |
-| GCP | 500 | Batch (manual) | $300 free credit |
-| fal.ai | 100 | Real-time API | Free signup credits |
-| Hugging Face | ∞ | Real-time API | Slow, overflow only |
 | Ken Burns | ∞ | Local FFmpeg | Always available fallback |
 
 ---
@@ -256,8 +252,6 @@ shorts_automation/
 │   ├── provider_budget.json    Provider usage tracking
 │   └── outputs/[run_id]/       Per-run outputs
 ├── modal_cogvideox_endpoint.py Deployed to Modal.com
-├── kaggle_cogvideox_notebook.py Run manually on Kaggle
-├── gcp_cogvideox_batch.py      Run on GCP VM
 ├── .env.template               API key template
 └── requirements.txt
 ```
